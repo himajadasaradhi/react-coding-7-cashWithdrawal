@@ -1,0 +1,85 @@
+/* Write your CSS here */
+.container {
+  background-color: #150b3e;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 10px;
+}
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: white;
+}
+.unordered-list {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+.name {
+  color: #d4d2db;
+  font-weight: 300;
+  font-family: 'roboto';
+  margin-left: 15px;
+  font-size: 25px;
+  margin-top: 25px;
+}
+.round {
+  height: 50px;
+  width: 50px;
+  border-radius: 25px;
+  background-color: #c7d2fe;
+  text-align: center;
+  color: #7c3aed;
+  padding-top: 12px;
+  font-weight: 500;
+}
+.name-round {
+  display: flex;
+  align-self: flex-start;
+  margin-left: 30px;
+}
+.choose-sum {
+  color: #585076;
+  font-weight: bold;
+  font-family: 'roboto';
+  margin-left: 30px;
+}
+span {
+  color: #585076;
+  font-weight: bold;
+  font-family: 'roboto';
+}
+.your-balance {
+  color: #585076;
+  font-family: 'roboto';
+  font-weight: bold;
+}
+.balance {
+  color: #c4c4c4;
+  font-weight: bold;
+  font-family: 'roboto';
+}
+.withdraw {
+  color: #d4d2db;
+  font-weight: 500;
+  font-size: 25px;
+  text-align: left;
+  margin-left: 30px;
+  margin-bottom: 0;
+}
+.your-balance-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 30px;
+}
+.balance-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
